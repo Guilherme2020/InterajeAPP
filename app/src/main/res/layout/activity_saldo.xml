@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="guilhermedev.bancobi.SaldoActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vizualize seu Saldo Abaixo"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="Numero da conta" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/saldo_numberConta" />
+
+    <Button
+        android:id="@+id/btn_saldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getSaldo"
+        android:text="Vizualizar Saldo"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>
